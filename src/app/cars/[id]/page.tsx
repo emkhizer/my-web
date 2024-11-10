@@ -4,7 +4,6 @@
 import { use } from "react"; // Import 'use' from React
 
 import Image from "next/image";
-// import Link from "next/link"
 import { notFound } from "next/navigation";
 import { cars } from "@/app/featured-cars/car";
 import { Button } from "@/components/ui/button";
@@ -32,7 +31,7 @@ export default function CarDetailsPage({ params }: PageProps) {
 
   return (
     <div className="container mx-auto  px-4 py-8">
-      <h1 className="text-3xl font-bold text-center border-b-2 mb-8">
+      <h1 className="text-3xl font-bold text-center ">
         {car.brand} {car.name} 2024 Price in Pakistan, Images, Reviews & Specs
       </h1>
 
